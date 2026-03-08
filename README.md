@@ -17,7 +17,7 @@
 3. Ingresa la cantidad que deseas convertir
 4. El programa consulta la tasa de cambio en tiempo real a la ExchangeRate API
 5. Obtén el resultado de tu conversión al instante
-6. Sigue convirtiendo o elige la opción 9 para salir [y convierte todas las monedas que necesites 💱]
+6. Sigue convirtiendo o elige la opción 9 para salir
 
 ![arrowRight](https://readmecodegen.vercel.app/api/social-icon?name=arrowRight&size=16&color=%232e9bf7) Configuración:
 
@@ -26,3 +26,4 @@ Antes de ejecutar, configura tu API Key como variable de entorno:
 EXCHANGE_API_KEY=tu_clave_aqui
 ```
 Obtén una clave gratuita en [exchangerate-api.com](https://www.exchangerate-api.com/)
+
