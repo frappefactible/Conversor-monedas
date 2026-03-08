@@ -2,7 +2,7 @@ package com.conversor;
 
 public class Principal {
 
-    private static final String API_KEY = System.getenv().getOrDefault("c2288f66a4535c0eefc3d983", "c2288f66a4535c0eefc3d983");
+    private static final String API_KEY = System.getenv().getOrDefault("TU_CLAVE", "CLAVE_DEFAULT");
 
     public static void main(String[] args) {
         var consulta = new ConsultaMoneda(API_KEY);
@@ -10,3 +10,4 @@ public class Principal {
         menu.iniciar();
     }
 }
+
